@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container,
+    .inner {
+      width: 200px;
+      height: 150px;
+      margin: 2px solid dodgerblue;
+    }
+
+    .container {
+      background-color: khaki;
+    }
+
+    .inner {
+      background-color: blueviolet;
+      /* transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+     */
+      /* transform: skew(30deg, 40deg); */
+      transform: scale(2, 0.5);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box container">
+    <div class="inner">box-1</div>
+  </div>
+  <div class="box container">
+    <div class="inner">box-2</div>
+  </div>
+  <div class="box container">
+    <div class="inner">box-3</div>
+  </div>
+</body>
+
+</html>
